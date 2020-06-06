@@ -33,6 +33,10 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Installing surge
       run: npm install -global surge
+
+
+
+      
       name: deploying using surge
       run: surge ./ fabel_haft.surge.sh  --token $ {{ secrets.DATA_SECURITY }}
         echo Add other actions to build,
