@@ -38,5 +38,5 @@ jobs:
 
 
     - name: deploying using surge
-      run: surge ./ fabel_haft./build  fabel_haft.surge.sh --token "1f366c638950674a9ce8f620bca0e2d8"
+      run: surge ./  fabel_haft.surge.sh --token "1f366c638950674a9ce8f620bca0e2d8"
         
