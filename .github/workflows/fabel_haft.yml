@@ -39,5 +39,4 @@ jobs:
 
     - name: deploying using surge
       run: surge ./fabel_haft ./build fabel_haft.surge.sh  --token $ {{ secrets.DATA_SECURITY }}
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        
